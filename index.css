@@ -8,9 +8,17 @@ body{
     background-color: #3B4664;
 }
 
+#calc {
+    font-family: 'Inter';
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-right: 18.5vw;
+    font-size: 1.2vw;
+}
+
 #display input {
     font-family: "Segoe UI", Arial, sans-serif;
-    width: 19vw;
+    width: 21.5vw;
     text-align: end;
     font-size: 2vw;
     margin: 2vh;
@@ -25,7 +33,7 @@ body{
 
 
 #buttons {
-border: none;
+    border: none;
     display: flex;
     flex-direction: column;
     background-color: #252D44;
@@ -47,11 +55,18 @@ border: none;
     margin:0 0.3vw;
     padding: 1vh 1vw;
     border: none;
-    width: 3.4vw;
+    width: 4vw;
     border-radius: 8px;
     
 }
 #lng button {
-    width: 7.75vw;
+    width: 9vw;
 }
 
+.grey {
+    background-color: #647299;
+}
+
+.red {
+    background-color: #D13F30;
+}

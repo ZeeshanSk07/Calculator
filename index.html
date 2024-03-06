@@ -9,6 +9,7 @@
     <title>Calculator</title>
 </head>
 <body>
+    <div id="calc">calc</div>
     <div id="display">
         <input type="text" name="display">
     </div>
@@ -18,7 +19,7 @@
             <button onclick="myfun('7')">7</button>
             <button onclick="myfun('8')">8</button>
             <button onclick="myfun('9')">9</button>
-            <button onclick="mydelete()">DEL</button>
+            <button class="grey" onclick="mydelete()">DEL</button>
         </div>
 
         <div class="row">
@@ -43,8 +44,8 @@
         </div>
 
         <div class="row" id="lng">
-            <button onclick="myclear()">RESET</button>
-            <button onclick="myfun('=')">=</button>
+            <button class="grey" onclick="myclear()">RESET</button>
+            <button class="red" onclick="myfun('=')">=</button>
         </div>
 
 
