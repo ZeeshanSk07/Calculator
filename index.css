@@ -1,0 +1,57 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4664;
+}
+
+#display input {
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 19vw;
+    text-align: end;
+    font-size: 2vw;
+    margin: 2vh;
+    padding: 2vh 1.5vw;
+    background-color: #252D44;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+    border: none;
+}
+
+
+
+#buttons {
+border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #252D44;
+    padding: 2.4vh ;
+    border-radius: 8px;
+}
+
+
+
+
+
+#buttons .row {
+    margin: 0.8vh 0;
+}
+
+#buttons button {
+    font-family: 'Inter';
+    font-weight: 800;
+    margin:0 0.3vw;
+    padding: 1vh 1vw;
+    border: none;
+    width: 3.4vw;
+    border-radius: 8px;
+    
+}
+#lng button {
+    width: 7.75vw;
+}
+
