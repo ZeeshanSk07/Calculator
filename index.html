@@ -11,7 +11,7 @@
 <body>
     <div id="calc">calc</div>
     <div id="display">
-        <input type="text" name="display">
+        <input id="inp" type="text" placeholder="0" name="display" readonly>
     </div>
 
     <div id="buttons">
@@ -40,15 +40,17 @@
             <button onclick="myfun('.')">.</button>
             <button onclick="myfun('0')">0</button>
             <button onclick="myfun('/')">/</button>
-            <button onclick="myfun('*')">X</button>
+            <button onclick="myfun('*')">x</button>
         </div>
 
         <div class="row" id="lng">
             <button class="grey" onclick="myclear()">RESET</button>
-            <button class="red" onclick="myfun('=')">=</button>
+            <button class="red" onclick="calculate()">=</button>
         </div>
 
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

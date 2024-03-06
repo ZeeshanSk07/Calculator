@@ -20,10 +20,10 @@ body{
     font-family: "Segoe UI", Arial, sans-serif;
     width: 21.5vw;
     text-align: end;
-    font-size: 2vw;
+    font-size: 2.4vw;
     margin: 2vh;
     padding: 2vh 1.5vw;
-    background-color: #252D44;
+    background-color: #181F32;
     border-radius: 8px;
     color: white;
     font-weight: 900;
@@ -65,8 +65,10 @@ body{
 
 .grey {
     background-color: #647299;
+    color: white;
 }
 
 .red {
     background-color: #D13F30;
+    color: white;
 }
