@@ -10,9 +10,6 @@ function myfun(input) {
     let currentValue = display.value;
   
     // If the input is 'x', treat it as '*'
-    if (input === 'x') {
-      input = '*';
-    }
   
     // Check if the input is an operator and the last character is also an operator
     if (isOperator(input) && isOperator(currentValue[currentValue.length - 1])) {
@@ -37,6 +34,7 @@ function myclear() {
 }
 
 function calculate() {
-  string = eval(string);
+  string = eval(string.replace('x', '*'));
   display.value = string;
 }
+
