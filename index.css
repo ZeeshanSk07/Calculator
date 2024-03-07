@@ -58,9 +58,13 @@ body{
     padding: 1vh 1vw;
     border: none;
     min-width: 4vw;
-    border-radius: 8px;
-    
+    border-radius: 8px;  
 }
+
+button:active{
+    transform: translateY(2px);
+}
+
 #lng button {
     width: 9vw;
 }
