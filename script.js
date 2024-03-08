@@ -2,7 +2,7 @@ let display = document.getElementById("inp");
 let string = "";
 
 function isOperator(char) {
-  const operators = ["+", "-", "*", "/"];
+  const operators = ["+", "-", "x", "/"];
   return operators.includes(char);
 }
 
