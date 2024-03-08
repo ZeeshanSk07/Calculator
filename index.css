@@ -107,6 +107,7 @@ button:active{
 
     #calc {
         font-size: 5vw;
+        visibility: hidden;
     }
 }
 
