@@ -86,28 +86,57 @@ button:active{
 @media only screen and (max-width:700px){
     
     #buttons {
-        min-width: 60vw;
+        min-width: 100vw;
+        height: 70vh;
+        margin: 0;
+        padding: 0;
+        padding: 3.3vh 1vw;
+        border-radius: 20px 20px 0 0;
     }
     body{
         display: flex; 
-        padding-bottom: 10vh;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        background-color: #252D44;
+
+    }
+    
+    #display{
+        height: 30vh;
+        margin: 0;
+        padding: 0;
     }
 
     #display input{
-        min-width: 64vw;
-        padding: 2vh 3vw;
+        min-width: 100vw;
+        height: 30vh;
+        margin: 0vh;
+        font-size: 3.5rem;
+        border-radius: 0 0 20px 20px;
     }
-    button {
-        width: 12vw;
+    #buttons .row {
+        display: flex;
+        justify-content:space-around;
+    }
+    #buttons .row button{
+        width: 22vw;
+        margin: 0 0 1vh 0;
+        font-size: 2.5rem;
     }
 
     #lng button{
-        width: 26vw;
+        width: 45vw !important;
+        font-size: 2.2rem !important;
     }
 
     #calc {
         font-size: 5vw;
         visibility: hidden;
+    }
+    .grey {
+        font-size: 2.2rem !important;
     }
 }
 
